@@ -13,7 +13,7 @@ if (process.env.NODE_ENV === 'production'){
 }
 
 // app.use(require('./routes));
-app.use('./api', userRoutes);
+app.use('/api', userRoutes);
 
 // start the api server
 app.listen(PORT, () =>console.log(`API Server now listening on ${PORT}`));
