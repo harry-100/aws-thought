@@ -41,6 +41,7 @@ router.get("/users/:username", (req, res) => {
     },
   };
 
+  
   dynamodb.query(params, (err, data) => {
     if (err) {
       console.log("Unable to query. Error:", JSON.stringify(err, null, 2));
