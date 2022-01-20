@@ -110,3 +110,4 @@ dist
 .env.development.Local
 .env.test.Local
 .env.production.local
+aws-thought.cer
